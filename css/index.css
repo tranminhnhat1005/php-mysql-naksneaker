@@ -1,0 +1,259 @@
+@import url('http://fonts.googleapis.com/css?family=Raleway');
+
+html body{
+	width: 100%;
+	height: 100%;
+	font-family: 'Raleway';
+	font-size: 25px;
+	color: black;
+}
+.navbar-expand-md{
+	margin-right: 0px;
+}
+.navbar li a{
+	color: black !important;
+}
+.navbar li a:hover{
+	color: blue !important;
+}
+
+.navbar-brand button: hover{
+	background-color: white !important;
+	border-color :white !important;
+}
+
+.logo-container {
+	width: 176px;
+	height: auto;
+	transition: .4s;
+	opacity: 0.6;
+}
+
+.logo-container:hover {
+	cursor: pointer;
+	opacity: 1;
+	transform: scale(1.1, 1.1);
+}
+
+
+.navbar form button:hover{
+	background-color: blue !important;
+	color: white !important;
+}
+
+.account,.brand:hover{
+	cursor: pointer !important;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  height: 100px;
+  width: 100px;
+  outline: blue;
+  background-size: 100%, 100%;
+  border-radius: 15%;
+  border: 2px solid blue;
+  background-image: none;
+}
+
+
+.carousel-control-prev-icon:hover{
+    height: 70px !important;
+    width: 70px !important;
+    opacity: 1 !important;
+	transform: scale(1.3, 1.3) !important;
+	transition: .2s !important;
+}
+
+.carousel-control-next-icon:hover{
+    height: 70px !important;
+    width: 70px !important;
+    opacity: 1 !important;
+	transform: scale(1.5, 1.5) !important;
+	transition: .3s !important;
+}
+.button-get:hover{
+	color: white !important;
+}
+
+.carousel-caption{
+	position: absolute;
+	top:34%;
+	text-shadow: 5px 5px 15px #000;
+}
+
+.carousel-caption h1{
+	color: white;
+}
+.carousel-caption button{
+	color: blue !important;
+	border-width: 3px !important;
+	border-color: blue !important;
+}
+.carousel-caption button:hover{
+	color: white !important;
+	background-color: blue !important;
+	transform: scale(1.1, 1.1) !important;
+	transition: .4s !important;
+}
+
+@media (max-width: 992px) {
+	.carousel-caption{
+		top: 25%;
+	}
+	.carousel-caption h1{
+		font-size: 250%;
+	}
+	.carousel-caption button{
+		font-size: 100%;
+	}
+}
+@media (max-width: 768px) {
+	.carousel-caption{
+		top: 20%;
+	}
+	.carousel-caption h1{
+		font-size: 220%;
+	}
+	.carousel-caption button{
+		font-size: 95%;
+		padding: 8px 14px;
+	}
+}
+@media (max-width: 576px) {
+	.carousel-caption{
+		top: 10%;
+	}
+	.carousel-caption h1{
+		font-size: 150%;
+	}
+	.carousel-caption button{
+		font-size: 90%;
+		padding: 4px 8px;
+	}
+}
+.jumbotron {
+  padding:1rem !important;
+  margin-bottom: 1rem !important;
+  background-color: white !important;
+  border-radius: 0 !important;
+}
+.dropdown {
+	position: absolute;
+	top:70%;
+	margin:auto !important;
+}
+.n-and-k,.social{
+	float: left;
+}
+.true{
+	width: 95%;
+	margin:auto;
+	float: left;
+}
+.social-item{
+	width: 2rem;
+	height: 2rem;
+	color: white;
+	margin: auto;
+	-webkit-border-radius: 20%;
+	-moz-border-radius: 20%;
+	-o-border-radius: 20%;
+	-ms-border-radius: 20%;
+}
+
+.myHeader{
+	text-align: center;
+	padding: 40px;
+}
+.social a{
+	font-size: 2.5em;
+	padding: 4rem;
+}
+.fa-facebook{
+	color: #3b5998;
+}
+.fa-twitter{
+	color:#00aced ;
+}
+
+.fa-instagram{
+	color: pink;
+}
+.fa-facebook:hover,.fa-twitter:hover,.fa-instagram:hover{
+	color: black ;
+}
+
+.background-image{
+	background:url('../images/background_login.png') /*no-repeat*/;
+	background-size: cover;
+	width: 100%;
+	height: 100%;
+}
+
+.row-container{
+	font-size: 16px !important;
+	border: 1px solid white;
+	border-radius: 20px;
+	margin: 20vh;
+	padding: 30px;
+	-webkit-box-shadow: 0px 0px 10px 10px rgba(0,0,0,0.75);
+	-moz-box-shadow: 0px 0px 10px 10px rgba(0,0,0,0.75);
+	box-shadow: 0px 0px 10px 10px rgba(0,0,0,0.75);
+}
+
+h1{
+	color: white;
+	text-shadow: 5px 5px 10px black;
+}
+
+.no{
+	color: white !important;
+}
+
+.no:hover{
+	text-decoration: none !important;
+}
+
+.item{
+	list-style: none !important;
+}
+
+.item>a{
+	color: black;
+}
+
+.item>a:hover{
+	color: blue;
+	text-decoration: none;
+}
+.detail-photo{
+	width: 50%;
+	transition: .4s;
+}
+
+.detail-photo:hover{
+	transform: scale(1.4, 1.4);
+}
+
+.brand-photo img{
+	width: 25%;
+	text-align: center;
+	margin:auto;
+}
+
+.fa-plus:hover{
+	color: blue !important;
+}
+.fa-minus:hover{
+	color: green !important;
+}
+.fa-times:hover{
+	color: red !important;
+}
+.img-cart{
+	width: 50%;
+	height: auto;
+}
+
+
